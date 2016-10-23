@@ -1,0 +1,26 @@
+[
+  {
+    "name": "app",
+    "url": "/",
+    "type": "load",
+    "src": "components/application/index"
+  },
+  {
+    "name": "app.index",
+    "url": "index",
+    "type": "load",
+    "src": "components/index-state/index"
+  },
+  {
+    "name": "app.index.sub",
+    "url": "/sub",
+    "type": "load",
+    "src": "components/index-sub-state/index"
+  },
+  {
+    "name": "app.index.sub.subsub",
+    "url": "/subsub",
+    "type": "load",
+    "src": "components/index-sub-subsub-state/index"
+  }
+]
